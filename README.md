@@ -70,16 +70,12 @@ For CPU version:
    ```
      pip install --ignore-installed --upgrade tensorflow
    ```
-   if you only need some specific version
-    ```
+   if you only need some specific version :
+   
        pip install tensorflow==1.4.0
-    ```
-     or  
-   ```
-     pip install keras==2.1.2
-   ```
+       pip install keras==2.1.2
 
-For GPU version :
+For GPU version:
 
      pip install --ignore-installed --upgrade tensorflow-gpu 
 
@@ -88,18 +84,19 @@ To Validate your installation:
 Start a terminal.
 Invoke python from your shell as follows:
 
-$ python
+      $ python
+
 then type the below code
-```
-   >>> import tensorflow as tf
-   >>> hello = tf.constant('Hello, TensorFlow!')
-   >>> sess = tf.Session()
-   >>> print(sess.run(hello))
- ```
+
+      >>> import tensorflow as tf
+      >>> hello = tf.constant('Hello, TensorFlow!')
+      >>> sess = tf.Session()
+      >>> print(sess.run(hello))
+
 If the system outputs the following, then you are ready to begin writing TensorFlow programs:
- ```
+
    Hello, TensorFlow!
- ```
+   
 Congratulations! Tensorflow is sucessfully installed on your system.
 
 ## Error and Issues
@@ -123,7 +120,6 @@ then you need to install the latest version of h5py:
  ```
     import os
     os.environ["TF_CPP_MIN_LOG_LEVEL"]="3"
-
 ```
 
 
