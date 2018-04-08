@@ -39,7 +39,7 @@ To create a virtual environment:
   ```
      conda create -n yourenvname python=x.x anaconda
   ```
-Where x.x is python version like 3.4,3.6 etc.
+Where x.x is python version like -> 3.4,3.6 etc.
 
 then activate yourenvname to install packages
 Command: 
@@ -47,21 +47,21 @@ Command:
  ```
       activate yourenvname
   ```
-Now you can packages whatever you need for your project:
+Now you can download the packages whatever you need for your project:
 
 I'm adding some useful packages below:
 
   ```   
-        conda install jupyter
-        conda install conda 
-        conda install scipy
-        pip install sklearn
-        pip install pandas
-        pip install pandas-datareader
-        pip install matplotlib
-        pip install pillow
-        pip install requests
-        pip install h5py
+     conda install jupyter
+     conda install conda 
+     conda install scipy
+     pip install sklearn
+     pip install pandas
+     pip install pandas-datareader
+     pip install matplotlib
+     pip install pillow
+     pip install requests
+     pip install h5py
    ```
 ## Installing Tensorflow and Keras.
 
@@ -84,14 +84,14 @@ To Validate your installation:
 Start a terminal.
 Invoke python from your shell as follows:
 
-      $ python
+      $python
 
 then type the below code
 
-      >>> import tensorflow as tf
-      >>> hello = tf.constant('Hello, TensorFlow!')
-      >>> sess = tf.Session()
-      >>> print(sess.run(hello))
+    >>> import tensorflow as tf
+    >>> hello = tf.constant('Hello, TensorFlow!')
+    >>> sess = tf.Session()
+    >>> print(sess.run(hello))
 
 If the system outputs the following, then you are ready to begin writing TensorFlow programs:
 
@@ -121,8 +121,6 @@ then you need to install the latest version of h5py:
     import os
     os.environ["TF_CPP_MIN_LOG_LEVEL"]="3"
 ```
-
-
 
 
 
