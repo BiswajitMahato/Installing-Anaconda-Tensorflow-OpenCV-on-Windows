@@ -6,7 +6,7 @@ Step by Step guide to install Anaconda and Tensorflow on Windows Environment
 
   * Go to : https://www.anaconda.com/downloads and download thye anaconda from the official website.
 
-  * My recomedation not to tick the check box. If you have multiple version of python then it might cause trouble.
+  * My recomend not to tick the check box. If you have multiple version of python then it might cause trouble.
     It will automatically configure the system environment path.So, If you don't tick then you have set manually the system environment.
 
     ```
