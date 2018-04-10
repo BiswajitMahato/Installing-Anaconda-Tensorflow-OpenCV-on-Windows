@@ -99,6 +99,20 @@ If the system outputs the following, then you are ready to begin writing TensorF
    
 Congratulations! Tensorflow is sucessfully installed on your system.
 
+
+## Installing OpenCV on Anaconda on Windows
+
+ open anaconda prompt and type the below commands:
+
+    pip install opencv-python
+    pip install opencv-contrib-python
+
+To make sure it is installed or not open python shell and type:
+     
+     import cv2 
+     print(cv2.__version__)
+
+
 ## Error and Issues
 
 1. If you get something like this:(FutureWarning):
